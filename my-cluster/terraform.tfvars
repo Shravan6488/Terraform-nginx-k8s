@@ -1,4 +1,4 @@
-project_id = "shravan-123456"
+project_id = "sunny-emissary-217102"
 region = "europe-west1"
 
 name = "my-cluster"

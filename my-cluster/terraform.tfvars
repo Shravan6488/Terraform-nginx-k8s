@@ -1,4 +1,4 @@
-project_id = "example-123456"
+project_id = "shravan-123456"
 region = "europe-west1"
 
 name = "my-cluster"

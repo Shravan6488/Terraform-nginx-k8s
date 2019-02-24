@@ -13,12 +13,3 @@ module "my_cluster" {
   initial_node_count = "${var.initial_node_count}"
   network            = "${module.my_network.name}"
 }
-
-# create gitlab node pool and attach it to my-cluster
-module "gitlab_np" {
-  source       = "../terraform-modules/node-pool"
-  name         = "gitlab-pool"
-  zone         = "${var.zone}"
-  cluster_name = "${module.my_cluster.name}"
-  node_count   = 1
-}

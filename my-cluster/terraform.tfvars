@@ -1,4 +1,4 @@
-project_id = "sunny-emissary-217102"
+project_id = "example-12345"
 region = "europe-west1"
 
 name = "my-cluster"

@@ -1,6 +1,6 @@
 resource "google_dns_managed_zone" "primary" {
   name        = "shravan-zone"
-  dns_name    = "devops.challenge"
+  dns_name    = "devops.challenge."
   description = "DNS zone for the Raddit domain"
 }
 

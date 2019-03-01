@@ -68,4 +68,13 @@ Inside the **my-cluster** folder, I put terraform configuration for the creation
 	```bash
 	$ kubectl apply -f ./deploy-app-example/nginx-example.yml
 	```
+## To deploy new version
 
+* create new/edit  terraform.tfvars /terraform1.tfvars(if create new) change the cluster name.
+* and run kubectl apply -f ./deploy-app-example/nginx-example2.yml (nginx-example2 not in code you can create one)
+- Repeat the previous steps again.
+
+## dns switch 
+-Two ways can do
+* Manually ( which i have done through console)
+* Using terraform 

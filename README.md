@@ -1,7 +1,7 @@
 ## Prerequisites
 - Terraform veriosn > 0.11
 - git
--kubectl sdks if using google cloud console
+- kubectl sdks if using google cloud console
 
 
 
